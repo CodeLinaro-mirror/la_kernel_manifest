@@ -19,6 +19,7 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
+
   <project path="common" name="kernel/common" revision="android13-5.15-2026-09" upstream="android13-5.15-2026-09" dest-branch="android13-5.15-2026-09">
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
