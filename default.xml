@@ -36,8 +36,7 @@
 
   <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" clone-depth="1"/>
 
-  <!-- TODO(b/575845266): unpin abseil revision after gloop issue is resolved -->
-  <project name="platform/external/abseil-cpp" path="external/abseil-cpp" revision="9995e5820dbb1505ea942fb531473deb13d25a00" clone-depth="1" />
+  <project name="platform/external/abseil-cpp" path="external/abseil-cpp" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/argp-standalone" path="external/argp-standalone" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/avb" path="external/avb" revision="main-kernel" clone-depth="1" />
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel" clone-depth="1"/>
